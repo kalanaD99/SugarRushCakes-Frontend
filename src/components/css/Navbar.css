@@ -3,6 +3,7 @@
     height: 70px;
     color: white;
     justify-content: center;
+    box-shadow: 5px;
 }
 
 .nav{
