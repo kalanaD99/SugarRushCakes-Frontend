@@ -9,9 +9,19 @@
     list-style: none;
     color: white;
     position: relative;
-    left: 500px;
+    right: 100px;
     
 }
 .links :hover{
     border: #ec712b;
+    padding: 5px;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: serif;
+    color: white;
+}
+.navbar-brand:hover{
+    color: #f323a3;
 }

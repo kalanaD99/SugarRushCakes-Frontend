@@ -1,5 +1,5 @@
 import { Router,Route, Routes } from "react-router-dom"
-import { Container,  } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Products from "./pages/Products"
@@ -11,7 +11,7 @@ export default function App() {
   return (
   <>
     <Navbar />
-    <Container className="mb-4">
+    <Container fluid className="mb-4">
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/About" element={<About/>}></Route>
