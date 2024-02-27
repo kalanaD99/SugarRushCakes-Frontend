@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar"
 export default function App() {
   return (
   <>
-    <Navbar/>
+    <Navbar />
     <Container className="mb-4">
       <Routes>
         <Route path="/" element={<Home/>}></Route>
